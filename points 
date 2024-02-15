@@ -1,0 +1,3 @@
+use request module with proxy feature of oxylabs as without it my data fetching limit of my ip could exhaust.
+
+we have created two files one containes a large list of proxy ips some of them will work some of them will not work. so now to check that  which of them will work which of them wont we have runa script "check_proxies.py" and it will give us the ips and their ports which are working then we can copy them and store them in the file named "valid_proxies.txt" fromt there we create s script which will scrape website sing these working ip adresses.
